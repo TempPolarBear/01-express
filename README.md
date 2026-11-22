@@ -31,7 +31,7 @@ The server listens on `PORT` when it is set, or port `3000` otherwise.
 | Method | Path             | Response                                        |
 | ------ | ---------------- | ----------------------------------------------- |
 | `GET`  | `/notes`         | `{"message":"Retrieved all notes"}`             |
-| `GET`  | `/notes/:noteId` | `{"message":"Retrieved note with ID: 42"}`       |
+| `GET`  | `/notes/:noteId` | `{"message":"Retrieved note with ID: 42"}`      |
 | `GET`  | `/test-error`    | `500` with `{"message":"Something went wrong"}` |
 
 Unknown routes return `404` with `{"message":"Route not found"}`. The `/test-error`
